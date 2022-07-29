@@ -1,0 +1,1 @@
+﻿E:\DevProjects\HIKROBOT_opencv_yolo\HIK_OPENCV_faceDet\HIK_OPENCV_faceDet.vcxproj(68,5): error MSB4019: 找不到导入的项目“E:\DevProjects\HIKROBOT_opencv_yolo\HIKROBOT_IN_OPENCV\HIK_OPENCV430.props”。请确认 Import 声明“..\HIKROBOT_IN_OPENCV\HIK_OPENCV430.props”中的表达式正确，且文件位于磁盘上。

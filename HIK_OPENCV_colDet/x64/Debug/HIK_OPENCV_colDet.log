@@ -1,0 +1,19 @@
+﻿  main.cpp
+E:\DevProjects\HIKROBOT_opencv_yolo\Include\Mv3dRgbdApi.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\DevProjects\HIKROBOT_opencv_yolo\Include\Mv3dRgbdDefine.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\DevProjects\HIKROBOT_opencv_yolo\Include\Mv3dRgbdImgProc.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+E:\DevProjects\HIKROBOT_opencv_yolo\common\include\RenderWindow.hpp(892,40): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\DevProjects\HIKROBOT_opencv_yolo\common\include\RenderWindow.hpp(903,53): warning C4244: “=”: 从“float”转换到“unsigned char”，可能丢失数据
+E:\DevProjects\HIKROBOT_opencv_yolo\common\include\RenderWindow.hpp(904,53): warning C4244: “=”: 从“float”转换到“unsigned char”，可能丢失数据
+E:\DevProjects\HIKROBOT_opencv_yolo\common\include\RenderWindow.hpp(905,53): warning C4244: “=”: 从“float”转换到“unsigned char”，可能丢失数据
+E:\DevProjects\HIKROBOT_opencv_yolo\common\include\RenderWindow.hpp(909,49): warning C4244: “=”: 从“float”转换到“unsigned char”，可能丢失数据
+E:\DevProjects\HIKROBOT_opencv_yolo\common\include\RenderWindow.hpp(910,49): warning C4244: “=”: 从“float”转换到“unsigned char”，可能丢失数据
+E:\DevProjects\HIKROBOT_opencv_yolo\common\include\RenderWindow.hpp(911,49): warning C4244: “=”: 从“float”转换到“unsigned char”，可能丢失数据
+E:\DevProjects\HIKROBOT_opencv_yolo\common\RenderImage.hpp(13,11): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+E:\DevProjects\HIKROBOT_opencv_yolo\common\RenderImage.hpp(14,36): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+E:\DevProjects\HIKROBOT_opencv_yolo\common\RenderImage.hpp(15,11): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+E:\DevProjects\HIKROBOT_opencv_yolo\HIK_OPENCV_colDet\main.cpp(97,18): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\DevProjects\HIKROBOT_opencv_yolo\HIK_OPENCV_colDet\main.cpp(102,24): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\DevProjects\HIKROBOT_opencv_yolo\HIK_OPENCV_colDet\main.cpp(105,13): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 4 拥有了类型“unsigned __int64”
+E:\DevProjects\HIKROBOT_opencv_yolo\HIK_OPENCV_colDet\main.cpp(105,13): message : 请考虑在格式字符串中使用“%zd”
+  HIK_OPENCV_colDet.vcxproj -> E:\DevProjects\HIKROBOT_opencv_yolo\HIK_OPENCV_colDet\x64\Debug\HIK_OPENCV_colDet.exe

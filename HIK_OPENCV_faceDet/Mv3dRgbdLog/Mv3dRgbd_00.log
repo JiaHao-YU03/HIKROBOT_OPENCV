@@ -1,0 +1,224 @@
+[2022-07-28 16:37:51:0306] | Info     | Manager.cpp              -L1655: ---------------------Start call Mv3dRgbd.dll start--------------------
+[2022-07-28 16:37:51:0306] | Info     | Manager.cpp              -L1659: Build Time[220617_10:07:28], SDK version[0x1000003].
+[2022-07-28 16:37:51:0306] | Info     | Manager.cpp              -L1661: Mv3dRgbd.dll path [C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbd.dll]
+[2022-07-28 16:37:51:0306] | Info     | Manager.cpp              -L1662: Current ExE path [E:\DevProjects\HIKROBOT_opencv_yolo\HIK_OPENCV_faceDet\x64\Debug\HIK_OPENCV_faceDet.exe]
+[2022-07-28 16:37:51:0306] | Info     | Manager.cpp              -L1667: Config (C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbdCfg.ini) exist .
+[2022-07-28 16:37:51:0306] | Info     | Manager.cpp              -L1674: DebugMode[0], nLogSize[100].
+[2022-07-28 16:37:51:0306] | Info     | Manager.cpp              -L1082: [Init] Begin.
+[2022-07-28 16:37:51:0308] | Info     | Manager.cpp              -L1115: [Init] end success.
+[2022-07-28 16:37:51:0308] | Info     | Manager.cpp              -L0465: [BindDevBySomeWay] start. chParm[00K14280163].
+[2022-07-28 16:37:51:0308] | Info     | CameraModule.cpp         -L0085: [Enum] begin.
+[2022-07-28 16:37:51:0516] | Info     | CameraModule.cpp         -L0102: [Enum] enum by gige sdk, get camera num:[1].
+[2022-07-28 16:37:51:0516] | Info     | CameraModule.cpp         -L0105: [Enum] end success.
+[2022-07-28 16:37:51:0516] | Info     | Manager.cpp              -L0569: [CompareBindParm] param bFind[1]  nFindNum[0] .
+[2022-07-28 16:37:51:0516] | Info     | Manager.cpp              -L1042: [CreateHandle] begin.
+[2022-07-28 16:37:51:0516] | Info     | CameraModule.cpp         -L0156: [CreateHandle] Get Gige Sdk version:(0x4000004).
+[2022-07-28 16:37:51:0545] | Info     | Manager.cpp              -L1075: [CreateHandle] end success.
+[2022-07-28 16:37:51:0545] | Info     | Manager.cpp              -L0494: [BindDevBySomeWay] end. chParm[00K14280163].
+[2022-07-28 16:37:51:0545] | Info     | Manager.cpp              -L0382: [BindDevice] bind device SN[00K14280163] Model[MV-EB435i] ip[2bdf00K14280163] SubNetmask[] gateway[].
+[2022-07-28 16:37:51:0545] | Info     | Manager.cpp              -L0933: [ConnectDevice] begin.
+[2022-07-28 16:37:51:0800] | Info     | Manager.cpp              -L0978: [ConnectDevice] Get BufferNode count from C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbdCfg.ini\BufferNode, value[5].
+[2022-07-28 16:37:51:0800] | Info     | Manager.cpp              -L0986: [ConnectDevice] SetImageNodeNum value[5].
+[2022-07-28 16:37:51:0802] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(CameraWorkingMode) nValue(4).
+[2022-07-28 16:37:51:0804] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ImageMode) nValue(2).
+[2022-07-28 16:37:51:0806] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkModeActive) bValue(1).
+[2022-07-28 16:37:51:0806] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ChunkSelector) nValue(24).
+[2022-07-28 16:37:51:0808] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkEnable) bValue(1).
+[2022-07-28 16:37:51:0808] | Error    | Manager.cpp              -L0898: m_nDeviceType:00000004.
+[2022-07-28 16:37:51:0809] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ChunkSelector) nValue(19).
+[2022-07-28 16:37:51:0810] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkEnable) bValue(1).
+[2022-07-28 16:37:51:0810] | Info     | Manager.cpp              -L1035: [ConnectDevice] end success.
+[2022-07-28 16:37:51:0810] | Info     | Manager.cpp              -L1482: [Start] begin.
+[2022-07-28 16:37:51:0913] | Info     | Manager.cpp              -L1510: [Start] StartGrabbing success.
+[2022-07-28 16:37:51:0913] | Info     | Manager.cpp              -L1516: [Start] end success.
+[2022-07-28 16:37:51:0913] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [1440] [0x11000b8] [1].
+[2022-07-28 16:38:36:0972] | Info     | Manager.cpp              -L1655: ---------------------Start call Mv3dRgbd.dll start--------------------
+[2022-07-28 16:38:36:0972] | Info     | Manager.cpp              -L1659: Build Time[220617_10:07:28], SDK version[0x1000003].
+[2022-07-28 16:38:36:0972] | Info     | Manager.cpp              -L1661: Mv3dRgbd.dll path [C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbd.dll]
+[2022-07-28 16:38:36:0972] | Info     | Manager.cpp              -L1662: Current ExE path [E:\DevProjects\HIKROBOT_opencv_yolo\HIK_OPENCV_faceDet\x64\Debug\HIK_OPENCV_faceDet.exe]
+[2022-07-28 16:38:36:0972] | Info     | Manager.cpp              -L1667: Config (C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbdCfg.ini) exist .
+[2022-07-28 16:38:36:0972] | Info     | Manager.cpp              -L1674: DebugMode[0], nLogSize[100].
+[2022-07-28 16:38:36:0972] | Info     | Manager.cpp              -L1082: [Init] Begin.
+[2022-07-28 16:38:36:0974] | Info     | Manager.cpp              -L1115: [Init] end success.
+[2022-07-28 16:38:36:0974] | Info     | Manager.cpp              -L0465: [BindDevBySomeWay] start. chParm[00K14280163].
+[2022-07-28 16:38:36:0974] | Info     | CameraModule.cpp         -L0085: [Enum] begin.
+[2022-07-28 16:38:37:0183] | Info     | CameraModule.cpp         -L0102: [Enum] enum by gige sdk, get camera num:[1].
+[2022-07-28 16:38:37:0183] | Info     | CameraModule.cpp         -L0105: [Enum] end success.
+[2022-07-28 16:38:37:0183] | Info     | Manager.cpp              -L0569: [CompareBindParm] param bFind[1]  nFindNum[0] .
+[2022-07-28 16:38:37:0183] | Info     | Manager.cpp              -L1042: [CreateHandle] begin.
+[2022-07-28 16:38:37:0183] | Info     | CameraModule.cpp         -L0156: [CreateHandle] Get Gige Sdk version:(0x4000004).
+[2022-07-28 16:38:37:0211] | Info     | Manager.cpp              -L1075: [CreateHandle] end success.
+[2022-07-28 16:38:37:0211] | Info     | Manager.cpp              -L0494: [BindDevBySomeWay] end. chParm[00K14280163].
+[2022-07-28 16:38:37:0211] | Info     | Manager.cpp              -L0382: [BindDevice] bind device SN[00K14280163] Model[MV-EB435i] ip[2bdf00K14280163] SubNetmask[] gateway[].
+[2022-07-28 16:38:37:0211] | Info     | Manager.cpp              -L0933: [ConnectDevice] begin.
+[2022-07-28 16:38:37:0472] | Info     | Manager.cpp              -L0978: [ConnectDevice] Get BufferNode count from C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbdCfg.ini\BufferNode, value[5].
+[2022-07-28 16:38:37:0472] | Info     | Manager.cpp              -L0986: [ConnectDevice] SetImageNodeNum value[5].
+[2022-07-28 16:38:37:0473] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(CameraWorkingMode) nValue(4).
+[2022-07-28 16:38:37:0475] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ImageMode) nValue(2).
+[2022-07-28 16:38:37:0476] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkModeActive) bValue(1).
+[2022-07-28 16:38:37:0476] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ChunkSelector) nValue(24).
+[2022-07-28 16:38:37:0478] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkEnable) bValue(1).
+[2022-07-28 16:38:37:0478] | Error    | Manager.cpp              -L0898: m_nDeviceType:00000004.
+[2022-07-28 16:38:37:0478] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ChunkSelector) nValue(19).
+[2022-07-28 16:38:37:0479] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkEnable) bValue(1).
+[2022-07-28 16:38:37:0479] | Info     | Manager.cpp              -L1035: [ConnectDevice] end success.
+[2022-07-28 16:38:37:0479] | Info     | Manager.cpp              -L1482: [Start] begin.
+[2022-07-28 16:38:37:0600] | Info     | Manager.cpp              -L1510: [Start] StartGrabbing success.
+[2022-07-28 16:38:37:0600] | Info     | Manager.cpp              -L1516: [Start] end success.
+[2022-07-28 16:38:37:0607] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [8].
+[2022-07-28 16:38:37:0607] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[0] to [8].
+[2022-07-28 16:38:38:0881] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [16].
+[2022-07-28 16:38:38:0881] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[8] to [16].
+[2022-07-28 16:38:39:0845] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [23].
+[2022-07-28 16:38:39:0845] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[16] to [23].
+[2022-07-28 16:38:41:0449] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [34].
+[2022-07-28 16:38:41:0449] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[23] to [34].
+[2022-07-28 16:38:42:0388] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [41].
+[2022-07-28 16:38:42:0388] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[34] to [41].
+[2022-07-28 16:38:43:0347] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [48].
+[2022-07-28 16:38:43:0347] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[41] to [48].
+[2022-07-28 16:38:44:0289] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [54].
+[2022-07-28 16:38:44:0289] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[48] to [54].
+[2022-07-28 16:38:45:0224] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [61].
+[2022-07-28 16:38:45:0224] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[54] to [61].
+[2022-07-28 16:38:46:0190] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [68].
+[2022-07-28 16:38:46:0190] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[61] to [68].
+[2022-07-28 16:38:47:0161] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [75].
+[2022-07-28 16:38:47:0162] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[68] to [75].
+[2022-07-28 16:38:48:0183] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [82].
+[2022-07-28 16:38:48:0183] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[75] to [82].
+[2022-07-28 16:38:49:0195] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [89].
+[2022-07-28 16:38:49:0195] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[82] to [89].
+[2022-07-28 16:38:50:0211] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [96].
+[2022-07-28 16:38:50:0211] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[89] to [96].
+[2022-07-28 16:38:51:0195] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [103].
+[2022-07-28 16:38:51:0195] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[96] to [103].
+[2022-07-28 16:38:52:0224] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [110].
+[2022-07-28 16:38:52:0224] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[103] to [110].
+[2022-07-28 16:38:53:0266] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [118].
+[2022-07-28 16:38:53:0266] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[110] to [118].
+[2022-07-28 16:38:54:0298] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [125].
+[2022-07-28 16:38:54:0298] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[118] to [125].
+[2022-07-28 16:38:55:0312] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [132].
+[2022-07-28 16:38:55:0312] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[125] to [132].
+[2022-07-28 16:38:56:0285] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [139].
+[2022-07-28 16:38:56:0285] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[132] to [139].
+[2022-07-28 16:38:57:0298] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [146].
+[2022-07-28 16:38:57:0298] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[139] to [146].
+[2022-07-28 16:38:58:0258] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [153].
+[2022-07-28 16:38:58:0258] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[146] to [153].
+[2022-07-28 16:38:59:0237] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [160].
+[2022-07-28 16:38:59:0237] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[153] to [160].
+[2022-07-28 16:39:00:0233] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [167].
+[2022-07-28 16:39:00:0233] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[160] to [167].
+[2022-07-28 16:39:01:0242] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [174].
+[2022-07-28 16:39:01:0242] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[167] to [174].
+[2022-07-28 16:39:02:0244] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [181].
+[2022-07-28 16:39:02:0244] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[174] to [181].
+[2022-07-28 16:39:03:0283] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [188].
+[2022-07-28 16:39:03:0283] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[181] to [188].
+[2022-07-28 16:39:04:0251] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [195].
+[2022-07-28 16:39:04:0251] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[188] to [195].
+[2022-07-28 16:39:05:0211] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [202].
+[2022-07-28 16:39:05:0211] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[195] to [202].
+[2022-07-28 16:39:06:0159] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [208].
+[2022-07-28 16:39:06:0159] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[202] to [208].
+[2022-07-28 16:39:07:0105] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [215].
+[2022-07-28 16:39:07:0105] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[208] to [215].
+[2022-07-28 16:39:08:0052] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [222].
+[2022-07-28 16:39:08:0052] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[215] to [222].
+[2022-07-28 16:39:09:0001] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [228].
+[2022-07-28 16:39:09:0001] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[222] to [228].
+[2022-07-28 17:02:11:0641] | Info     | Manager.cpp              -L1655: ---------------------Start call Mv3dRgbd.dll start--------------------
+[2022-07-28 17:02:11:0641] | Info     | Manager.cpp              -L1659: Build Time[220617_10:07:28], SDK version[0x1000003].
+[2022-07-28 17:02:11:0641] | Info     | Manager.cpp              -L1661: Mv3dRgbd.dll path [C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbd.dll]
+[2022-07-28 17:02:11:0641] | Info     | Manager.cpp              -L1662: Current ExE path [E:\DevProjects\HIKROBOT_opencv_yolo\HIK_OPENCV_faceDet\x64\Debug\HIK_OPENCV_faceDet.exe]
+[2022-07-28 17:02:11:0641] | Info     | Manager.cpp              -L1667: Config (C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbdCfg.ini) exist .
+[2022-07-28 17:02:11:0641] | Info     | Manager.cpp              -L1674: DebugMode[0], nLogSize[100].
+[2022-07-28 17:02:11:0641] | Info     | Manager.cpp              -L1082: [Init] Begin.
+[2022-07-28 17:02:11:0644] | Info     | Manager.cpp              -L1115: [Init] end success.
+[2022-07-28 17:02:11:0644] | Info     | Manager.cpp              -L0465: [BindDevBySomeWay] start. chParm[00K14280163].
+[2022-07-28 17:02:11:0644] | Info     | CameraModule.cpp         -L0085: [Enum] begin.
+[2022-07-28 17:02:11:0852] | Info     | CameraModule.cpp         -L0102: [Enum] enum by gige sdk, get camera num:[1].
+[2022-07-28 17:02:11:0852] | Info     | CameraModule.cpp         -L0105: [Enum] end success.
+[2022-07-28 17:02:11:0852] | Info     | Manager.cpp              -L0569: [CompareBindParm] param bFind[1]  nFindNum[0] .
+[2022-07-28 17:02:11:0852] | Info     | Manager.cpp              -L1042: [CreateHandle] begin.
+[2022-07-28 17:02:11:0852] | Info     | CameraModule.cpp         -L0156: [CreateHandle] Get Gige Sdk version:(0x4000004).
+[2022-07-28 17:02:11:0878] | Info     | Manager.cpp              -L1075: [CreateHandle] end success.
+[2022-07-28 17:02:11:0878] | Info     | Manager.cpp              -L0494: [BindDevBySomeWay] end. chParm[00K14280163].
+[2022-07-28 17:02:11:0878] | Info     | Manager.cpp              -L0382: [BindDevice] bind device SN[00K14280163] Model[MV-EB435i] ip[2bdf00K14280163] SubNetmask[] gateway[].
+[2022-07-28 17:02:11:0878] | Info     | Manager.cpp              -L0933: [ConnectDevice] begin.
+[2022-07-28 17:02:12:0113] | Info     | Manager.cpp              -L0978: [ConnectDevice] Get BufferNode count from C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbdCfg.ini\BufferNode, value[5].
+[2022-07-28 17:02:12:0113] | Info     | Manager.cpp              -L0986: [ConnectDevice] SetImageNodeNum value[5].
+[2022-07-28 17:02:12:0115] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(CameraWorkingMode) nValue(4).
+[2022-07-28 17:02:12:0117] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ImageMode) nValue(2).
+[2022-07-28 17:02:12:0120] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkModeActive) bValue(1).
+[2022-07-28 17:02:12:0120] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ChunkSelector) nValue(24).
+[2022-07-28 17:02:12:0122] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkEnable) bValue(1).
+[2022-07-28 17:02:12:0122] | Error    | Manager.cpp              -L0898: m_nDeviceType:00000004.
+[2022-07-28 17:02:12:0122] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ChunkSelector) nValue(19).
+[2022-07-28 17:02:12:0124] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkEnable) bValue(1).
+[2022-07-28 17:02:12:0124] | Info     | Manager.cpp              -L1035: [ConnectDevice] end success.
+[2022-07-28 17:02:12:0124] | Info     | Manager.cpp              -L1482: [Start] begin.
+[2022-07-28 17:02:12:0222] | Info     | Manager.cpp              -L1510: [Start] StartGrabbing success.
+[2022-07-28 17:02:12:0222] | Info     | Manager.cpp              -L1516: [Start] end success.
+[2022-07-28 17:02:12:0222] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [1440] [0x11000b8] [1].
+[2022-07-28 17:02:13:0406] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [5].
+[2022-07-28 17:02:13:0406] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[1] to [5].
+[2022-07-28 17:02:14:0305] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [11].
+[2022-07-28 17:02:14:0305] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[5] to [11].
+[2022-07-28 17:02:15:0227] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [18].
+[2022-07-28 17:02:15:0227] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[11] to [18].
+[2022-07-28 17:02:16:0136] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [24].
+[2022-07-28 17:02:16:0136] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[18] to [24].
+[2022-07-28 17:02:17:0051] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [31].
+[2022-07-28 17:02:17:0051] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[24] to [31].
+[2022-07-28 17:02:17:0976] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [37].
+[2022-07-28 17:02:17:0976] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[31] to [37].
+[2022-07-28 17:02:18:0862] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [43].
+[2022-07-28 17:02:18:0862] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[37] to [43].
+[2022-07-28 17:02:19:0793] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [50].
+[2022-07-28 17:02:19:0793] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[43] to [50].
+[2022-07-28 17:02:20:0742] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [56].
+[2022-07-28 17:02:20:0742] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[50] to [56].
+[2022-07-28 17:02:21:0686] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [63].
+[2022-07-28 17:02:21:0686] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[56] to [63].
+[2022-07-28 17:02:22:0658] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [70].
+[2022-07-28 17:02:22:0658] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[63] to [70].
+[2022-07-28 17:02:27:0732] | Info     | Manager.cpp              -L1655: ---------------------Start call Mv3dRgbd.dll start--------------------
+[2022-07-28 17:02:27:0732] | Info     | Manager.cpp              -L1659: Build Time[220617_10:07:28], SDK version[0x1000003].
+[2022-07-28 17:02:27:0732] | Info     | Manager.cpp              -L1661: Mv3dRgbd.dll path [C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbd.dll]
+[2022-07-28 17:02:27:0732] | Info     | Manager.cpp              -L1662: Current ExE path [E:\DevProjects\HIKROBOT_opencv_yolo\HIK_OPENCV_faceDet\x64\Debug\HIK_OPENCV_faceDet.exe]
+[2022-07-28 17:02:27:0732] | Info     | Manager.cpp              -L1667: Config (C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbdCfg.ini) exist .
+[2022-07-28 17:02:27:0732] | Info     | Manager.cpp              -L1674: DebugMode[0], nLogSize[100].
+[2022-07-28 17:02:27:0732] | Info     | Manager.cpp              -L1082: [Init] Begin.
+[2022-07-28 17:02:27:0734] | Info     | Manager.cpp              -L1115: [Init] end success.
+[2022-07-28 17:02:27:0734] | Info     | Manager.cpp              -L0465: [BindDevBySomeWay] start. chParm[00K14280163].
+[2022-07-28 17:02:27:0734] | Info     | CameraModule.cpp         -L0085: [Enum] begin.
+[2022-07-28 17:02:27:0940] | Info     | CameraModule.cpp         -L0102: [Enum] enum by gige sdk, get camera num:[1].
+[2022-07-28 17:02:27:0940] | Info     | CameraModule.cpp         -L0105: [Enum] end success.
+[2022-07-28 17:02:27:0940] | Info     | Manager.cpp              -L0569: [CompareBindParm] param bFind[1]  nFindNum[0] .
+[2022-07-28 17:02:27:0940] | Info     | Manager.cpp              -L1042: [CreateHandle] begin.
+[2022-07-28 17:02:27:0940] | Info     | CameraModule.cpp         -L0156: [CreateHandle] Get Gige Sdk version:(0x4000004).
+[2022-07-28 17:02:27:0967] | Info     | Manager.cpp              -L1075: [CreateHandle] end success.
+[2022-07-28 17:02:27:0967] | Info     | Manager.cpp              -L0494: [BindDevBySomeWay] end. chParm[00K14280163].
+[2022-07-28 17:02:27:0967] | Info     | Manager.cpp              -L0382: [BindDevice] bind device SN[00K14280163] Model[MV-EB435i] ip[2bdf00K14280163] SubNetmask[] gateway[].
+[2022-07-28 17:02:27:0967] | Info     | Manager.cpp              -L0933: [ConnectDevice] begin.
+[2022-07-28 17:02:28:0226] | Info     | Manager.cpp              -L0978: [ConnectDevice] Get BufferNode count from C:\Program Files (x86)\Common Files\Mv3dRgbdSDK\Runtime\Win64_x64\Mv3dRgbdCfg.ini\BufferNode, value[5].
+[2022-07-28 17:02:28:0226] | Info     | Manager.cpp              -L0986: [ConnectDevice] SetImageNodeNum value[5].
+[2022-07-28 17:02:28:0227] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(CameraWorkingMode) nValue(4).
+[2022-07-28 17:02:28:0228] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ImageMode) nValue(2).
+[2022-07-28 17:02:28:0230] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkModeActive) bValue(1).
+[2022-07-28 17:02:28:0230] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ChunkSelector) nValue(24).
+[2022-07-28 17:02:28:0231] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkEnable) bValue(1).
+[2022-07-28 17:02:28:0231] | Error    | Manager.cpp              -L0898: m_nDeviceType:00000004.
+[2022-07-28 17:02:28:0232] | Info     | CameraModule.cpp         -L0945: camera module MV_CC_SetEnumValue:strKey(ChunkSelector) nValue(19).
+[2022-07-28 17:02:28:0233] | Info     | CameraModule.cpp         -L0930: camera module MV_CC_SetBoolValue: strKey(ChunkEnable) bValue(1).
+[2022-07-28 17:02:28:0233] | Info     | Manager.cpp              -L1035: [ConnectDevice] end success.
+[2022-07-28 17:02:28:0233] | Info     | Manager.cpp              -L1482: [Start] begin.
+[2022-07-28 17:02:28:0352] | Info     | Manager.cpp              -L1510: [Start] StartGrabbing success.
+[2022-07-28 17:02:28:0352] | Info     | Manager.cpp              -L1516: [Start] end success.
+[2022-07-28 17:02:28:0353] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [80].
+[2022-07-28 17:02:28:0353] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[0] to [80].
+[2022-07-28 17:02:29:0556] | Warning  | Manager.cpp              -L1344: [FetchFrame] error lost frameID from[1280] to [720] [0x11000b8] [88].
+[2022-07-28 17:02:29:0556] | Warning  | Manager.cpp              -L1352: [FetchFrame] error lost frameID from[80] to [88].
