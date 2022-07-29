@@ -11,7 +11,7 @@ RIFrameInfo depth = { 0 };
 RIFrameInfo rgb = { 0 };
 CascadeClassifier faceCascade;
 
-//³õÊ¼»¯+¿ªÆôÉè±¸
+//åˆå§‹åŒ–+å¼€å¯è®¾å¤‡
 void HIK_initialization()
 {
     MV3D_RGBD_VERSION_INFO stVersion;
@@ -25,7 +25,7 @@ void HIK_initialization()
     LOGD("MV3D_RGBD_GetDeviceNumber success! nDevNum:%d.", nDevNum);
     ASSERT(nDevNum);
 
-    // ²éÕÒÉè±¸
+    // æŸ¥æ‰¾è®¾å¤‡
     std::vector<MV3D_RGBD_DEVICE_INFO> devs(nDevNum);
     ASSERT_OK(MV3D_RGBD_GetDeviceList(DeviceType_Ethernet | DeviceType_USB, &devs[0], nDevNum, &nDevNum));
     for (unsigned int i = 0; i < nDevNum; i++)
@@ -33,30 +33,30 @@ void HIK_initialization()
         LOG("Index[%d]. SerialNum[%s] IP[%s] name[%s].\r\n", i, devs[i].chSerialNumber, devs[i].SpecialInfo.stNetInfo.chCurrentIp, devs[i].chModelName);
     }
 
-    //´ò¿ªÉè±¸
+    //æ‰“å¼€è®¾å¤‡
     unsigned int nIndex = 0;
     ASSERT_OK(MV3D_RGBD_OpenDevice(&handle, &devs[nIndex]));
     LOGD("OpenDevice success.");
 
-    //¸Ä±ä·Ö±æÂÊ²ÎÊı£¬0x00010001Îª 1280¡Á720£¬ 0x00020002Îª 640¡Á360
+    //æ”¹å˜åˆ†è¾¨ç‡å‚æ•°ï¼Œ0x00010001ä¸º 1280Ã—720ï¼Œ 0x00020002ä¸º 640Ã—360
     //MV3D_RGBD_PARAM stparam;
     //stparam.enParamType = ParamType_Enum;
     //stparam.ParamInfo.stEnumParam.nCurValue = 0x00010001;
     //ASSERT_OK(MV3D_RGBD_SetParam(handle, MV3D_RGBD_ENUM_RESOLUTION, &stparam));
 
-      //¸Ä±äÆØ¹â²ÎÊı
+      //æ”¹å˜æ›å…‰å‚æ•°
       //MV3D_RGBD_PARAM stparam;
       //stparam.enParamType = ParamType_Float;;
       //stparam.ParamInfo.stFloatParam.fCurValue = 100.0000;
       //ASSERT_OK(MV3D_RGBD_SetParam(handle, MV3D_RGBD_FLOAT_EXPOSURETIME, &stparam));
       //LOGD("EXPOSURETIME: (%f)", stparam.ParamInfo.stFloatParam.fCurValue);
 
-    // ¿ªÊ¼¹¤×÷Á÷³Ì
+    // å¼€å§‹å·¥ä½œæµç¨‹
     ASSERT_OK(MV3D_RGBD_Start(handle));
     LOGD("Start work success.");
 }
 
-//¹Ø±ÕÊÍ·ÅÉè±¸
+//å…³é—­é‡Šæ”¾è®¾å¤‡
 void HIK_stop()
 {
     ASSERT_OK(MV3D_RGBD_Stop(handle));
@@ -75,23 +75,24 @@ int main(int argc, char** argv)
 
     while (1)
     {
-        // »ñÈ¡Í¼ÏñÊı¾İ
+        // è·å–å›¾åƒæ•°æ®
         int nRet = MV3D_RGBD_FetchFrame(handle, &stFrameData, 5000);
         if (MV3D_RGBD_OK == nRet)
         {
             LOGD("MV3D_RGBD_FetchFrame success.");
 
-            //·ÖÎö»ñÈ¡Ã¿Ö¡Êı¾İ
+            //åˆ†æè·å–æ¯å¸§æ•°æ®
             parseFrame(&stFrameData, &depth, &rgb);
             Mat rgb_frame(rgb.nHeight, rgb.nWidth, CV_8UC3, rgb.pData);
 
-            LOGD("rgb: FrameNum(%d), height(%d), width(%d)¡£", rgb.nFrameNum, rgb.nHeight, rgb.nWidth);
-            
-            //B¡¢RÍ¨µÀ½»»»£¬ÏÔÊ¾Õı³£²ÊÉ«Í¼Ïñ
-            Mat frame;
-            cvtColor(rgb_frame, frame, COLOR_RGB2BGR);
+            LOGD("rgb: FrameNum(%d), height(%d), width(%d)ã€‚", rgb.nFrameNum, rgb.nHeight, rgb.nWidth);
 
-            //ÒÔÏÂ½øĞĞÈËÁ³Ê¶±ğ
+            //Bã€Ré€šé“äº¤æ¢ï¼Œæ˜¾ç¤ºæ­£å¸¸å½©è‰²å›¾åƒ
+            Mat frame, gray_frame;
+            cvtColor(rgb_frame, frame, COLOR_BGR2RGB);
+            cvtColor(rgb_frame, gray_frame, COLOR_BGR2GRAY);
+
+            //ä»¥ä¸‹è¿›è¡Œäººè„¸è¯†åˆ«
             faceCascade.load("haarcascade_frontalface_default.xml");
 
             if (faceCascade.empty())
@@ -99,8 +100,12 @@ int main(int argc, char** argv)
                 LOGD("xml not found!");
             }
 
+            //è¿›è¡Œç›´æ–¹å›¾å‡è¡¡åŒ–
+            equalizeHist(gray_frame, gray_frame);
+
+            //æ‰§è¡Œå¤šå°ºåº¦ç‰¹å¾æ£€æµ‹
             vector<Rect> faces;
-            faceCascade.detectMultiScale(frame, faces, 1.1, 10);
+            faceCascade.detectMultiScale(gray_frame, faces, 1.1, 5, 0, Size(24, 24));
 
             for (int i = 0; i < faces.size(); i++)
             {
@@ -119,4 +124,3 @@ int main(int argc, char** argv)
 
     return  0;
 }
-
